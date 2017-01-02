@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appirator_app_title">Nature and Ayurveda</string>
+    <string name="appirator_market_url">market://details?id=com.effigrity.ayurvedichomemedicine.free</string>
+    <string name="app_name">Nature and Ayurveda</string>
+    <string name="choose_part">Choose Body Part</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="disease_display">Disease Details</string>
+    <string name="remedy_display">Home Remedies</string>
+    <string name="remedy_details">Remedy Details</string>
+    <string name="rate_it">Rate It!</string>
+    <string name="like_it">Like Us!</string>
+    <string name="aboutUs">Disclaimer</string>
+    <string name="tweetus">Follow Us</string>
+    <string name="googleplus">You +</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="remedywarning">Remedies Warning</string>
+    <string name="rate_title">Rate Us%1$s</string>
+    <string name="rate_message">If you like using Nature and Ayurveda, would you mind taking a moment to rate it? Thanks for your support.</string>
+    <string name="rate">Yes, Rate Nature and Aturveda</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">No, Thanks</string>
+    <string name="collapsed">Welcome int Mumbai !</string>
+</resources>

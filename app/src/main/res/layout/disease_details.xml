@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/green_background">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/adlayout">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/line5"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="2.0dip"
+                android:typeface="monospace" />
+
+            <WebView
+                android:id="@+id/webView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/line5"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="2.0dip"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/remedybelow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/webView1"
+                android:layout_below="@+id/webView1"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center"
+                android:text="Remedies are listed below..."
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:typeface="monospace" />
+
+            <LinearLayout
+                android:id="@+id/remedylayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/remedybelow"
+                android:layout_marginTop="5.0dip"
+                android:divider="@android:color/transparent"
+                android:gravity="center">
+
+                <ListView
+                    android:id="@+id/remedy_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="400.0dip"
+                    android:divider="@android:color/transparent" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/adlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:gravity="center" />
+</RelativeLayout>

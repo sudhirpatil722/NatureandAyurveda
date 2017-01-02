@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="appirator_button_start_color">#ff449def</color>
+    <color name="appirator_button_end_color">#ff2f6699</color>
+    <color name="appirator_button_text_color">#ffffffff</color>
+    <color name="somewhat_gray">#d1d1d1</color>
+    <color name="almost_white">#fafafa</color>
+    <color name="violet_sms">#78ebc4</color>
+    <color name="red_sms">#eb789e</color>
+    <color name="orange_new">#ccb21a</color>
+    <color name="peru">#cd853f</color>
+    <color name="orange1">#ffa500</color>
+    <color name="somewhat_purple">#ffc7ff</color>
+    <color name="green">#99cc00</color>
+    <color name="dark_green">#347235</color>
+    <color name="dark_red">#990012</color>
+    <color name="red">#ff4444</color>
+    <color name="orange">#ffbb33</color>
+    <color name="blue">#33b5e5</color>
+    <color name="violet">#aa66cc</color>
+    <color name="somewhat_red">#ffaeb9</color>
+    <color name="somewhat_orange">#fff68f</color>
+    <color name="somewhat_blue">#97ffff</color>
+    <color name="somewhat_green">#9aff9a</color>
+    <color name="title_background">#ff355689</color>
+    <color name="title_separator">#40ffffff</color>
+    <color name="blue_dress">#46c7c7</color>
+    <color name="taupe">#ec84f1</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <!--<color name="abc_search_url_text_holo">res/color/abc_search_url_text_holo.xml</color>
+    <color name="common_signin_btn_text_dark">res/color/common_signin_btn_text_dark.xml</color>
+    <color name="common_signin_btn_text_light">res/color/common_signin_btn_text_light.xml</color>-->
+</resources>

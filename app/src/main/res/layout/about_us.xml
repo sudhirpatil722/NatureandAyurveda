@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end">
+
+            <TextView
+                android:id="@+id/disclaimertext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:text="@string/disclaimer"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/disclaimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/disclaimertext"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:text="@string/disclaimer"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/remediestext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/disclaimer"
+                android:layout_marginTop="20dp"
+                android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:text="@string/remedywarning"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/remedywarning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/remediestext"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:text="@string/disclaimer"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

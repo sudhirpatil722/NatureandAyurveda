@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "com.effigrity.ayurvedichomemedicine.free"
+        minSdkVersion 10
+        targetSdkVersion 22
+        versionCode 5
+        versionName "5.1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'libs/jackson-core-asl-1.9.13.jar'
+        exclude 'libs/jackson-mapper-asl-1.9.13.jar'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    /*androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })*/
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.google.android.gms:play-services-ads:9.2.0'
+    //compile 'com.google.firebase:firebase-core:9.2.0'                        // this line must be included to integrate with Firebase
+    compile 'com.google.firebase:firebase-messaging:9.2.0'                // this line must be included to use FCM
+
+    //Add the following lines one is for firebase and one is for volley
+    compile 'com.firebase:firebase-client-android:2.5.1+'
+    compile 'com.google.firebase:firebase-crash:9.2.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/rating"
+        android:icon="@drawable/rating"
+        android:showAsAction="withText"
+        android:title="Rate It!"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/like"
+        android:icon="@drawable/facebook"
+        android:showAsAction="withText"
+        android:title="Like Us!"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/googleplus"
+        android:icon="@drawable/google_plus"
+        android:showAsAction="withText"
+        android:title="You +" />
+    <item
+        android:id="@+id/twitter"
+        android:icon="@drawable/twitter"
+        android:showAsAction="withText"
+        android:title="Follow Us" />
+    <item
+        android:id="@+id/aboutUS"
+        android:icon="@drawable/about"
+        android:showAsAction="withText"
+        android:title="Disclaimer" />
+</menu>

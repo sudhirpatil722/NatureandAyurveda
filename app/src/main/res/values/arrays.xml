@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="nav_drawer_items">
+        <item>Ankle</item>
+        <item>Body</item>
+        <item>Bones</item>
+        <item>Ear</item>
+    </array>
+</resources>
